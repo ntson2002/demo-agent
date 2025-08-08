@@ -11,6 +11,11 @@ Bao gồm một CLI chat đơn giản và các tool minh họa: thời tiết, g
 - **Tính toán**: Thực hiện các phép tính cơ bản (+, -, *, /)
 - **Lịch sử hội thoại**: Lưu ngắn gọn lịch sử giữa người dùng và agent
 
+
+## Demo
+
+![Demo Agent](images/demo_agent.gif)
+
 ## Cấu trúc dự án
 
 - `demo_simple_agent.py`: CLI Agent chat, gọi OpenAI và tự động gọi tool khi cần
@@ -67,7 +72,3 @@ Script sẽ in ra JSON schema sinh tự động cho từng hàm, và chạy th�
 
 - Mặc định model đang dùng là `gpt-4o-mini` (xem `demo_agent.py`), bạn có thể đổi model tùy nhu cầu.
 - Định nghĩa schema các tool được khai báo trong `tools.py` thông qua danh sách `tool_descriptions`.
-
-## Demo
-
-![Demo Agent](images/demo_agent.gif)
