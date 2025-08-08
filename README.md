@@ -1,4 +1,4 @@
-# DemoSimple Agent
+# Demo Simple Agent
 
 Dự án demo AI Agent sử dụng OpenAI Chat Completions với tool calling để thực thi các chức năng Python.
 Bao gồm một CLI chat đơn giản và các tool minh họa: thời tiết, giá cổ phiếu, thông tin sinh viên, tính toán.
@@ -68,4 +68,6 @@ Script sẽ in ra JSON schema sinh tự động cho từng hàm, và chạy th�
 - Mặc định model đang dùng là `gpt-4o-mini` (xem `demo_agent.py`), bạn có thể đổi model tùy nhu cầu.
 - Định nghĩa schema các tool được khai báo trong `tools.py` thông qua danh sách `tool_descriptions`.
 
-## Demo 
+## Demo
+
+![Demo Agent](images/demo_agent.gif)
